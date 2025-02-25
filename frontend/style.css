@@ -1,0 +1,91 @@
+body {
+    font-family: 'Century Gothic', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\\Users\\Administrator\\Downloads\\CC223_WebApp_Background.jpg'); /* Local path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: 'Comic Sans MS', 'Century Gothic', Arial, sans-serif; /* Use the cartoony font for the heading */
+    font-size: 48px; /* Make the heading larger */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#taskInput, #deadlineInput {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#addButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#addButton:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.completed {
+    background-color: #90EE90; /* Light green */
+}
+
+.past-due {
+    background-color: #FFCCCB; /* Light red */
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button.deleteButton {
+    background-color: #f44336;
+    color: white;
+}
+
+button.deleteButton:hover {
+    background-color: #e53935;
+}
+
+button.completedButton {
+    background-color: #008CBA;
+    color: white;
+    margin-left: 5px;
+}
+
+button.completedButton:hover {
+    background-color: #007bb8;
+}

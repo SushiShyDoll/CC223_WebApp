@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch API Example</title>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to the cartoony font -->
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Fetch API Example</h1>
-    <button id="fetchButton">Fetch Data</button>
-    <div id="output"></div>
-
+    <h1>To-Do List</h1>
+    <div class="container">
+        <input type="text" id="taskInput" placeholder="Enter a new task">
+        <input type="date" id="deadlineInput">        
+        <button id="addButton">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
